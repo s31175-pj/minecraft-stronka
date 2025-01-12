@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <video autoplay muted loop id="video1">
+        <source src="rain.mp4" type="video/mp4">
+    </video>
+
+    <div class="container">
+        <div class="grey-box">
+            <div class="p">
+                <h1>Tryby gry</h1>
+                W grze jest 5 różnych trybów gry jednoosobowej .
+
+                <h3>Tryb Przetrwania</h3>
+                Information icon Osobny artykuł: Tryb przetrwania.
+                Ten tryb, jak sama nazwa mówi, polega na przetrwaniu- należy zbudować dom, zdobywać surowce oraz nie dać się zabić przez potwory.
+
+                <h3>Tryb Hardcore</h3>
+                Ten element dotyczy wyłącznie Java Edition.
+                Ten tryb jest bardzo podobny do trybu przetrwania, aczkolwiek jest kilka różnic. Poziom trudności od początku jest ustawiony jako trudny i nie da się go zmieniać. Serduszka w poziomie życia mają czarne kropki, jest to cecha trybu hardcore, a w trybie hardcore ma się tylko jedno życie, jeżeli zginiesz nie masz szansy się odrodzić - możesz jedynie obserwować świat albo go usunąć i zacząć od nowa.
+
+                <h3>Tryb Kreatywny</h3>
+                Information icon Osobny artykuł: Tryb kreatywny.
+                W tym trybie są nieograniczone możliwości! Ma się nieskończony dostęp do wszystkich bloków i materiałów więc z łatwością można budować budynki i mechanizmy. Można latać, niszczyć szybko bloki, oraz nie da się zginąć chyba że gracz spadnie w próżnię, lub wpisze komendę /kill (Tylko w Java Edition).
+
+                <h3>Tryb Widza</h3>
+                Information icon Osobny artykuł: Tryb widza.
+                Information icon
+                Ten element dotyczy wyłącznie Java Edition.
+                Ten tryb można ustawić komendą lub po śmierci na trybie hardcore. Tryb ten jest bardzo podobny do kreatywnego, z tą różnicą że nie mamy dostępu do przedmiotów i bloków. Możesz jednak wlecieć pod ziemie bez niszczenia bloków i pooglądać jaskinie. Dobrą opcją jest też to, że można wcielać się w moby.
+
+                <h3>Tryb Przygodowy</h3>
+                Information icon Osobny artykuł: Tryb przygodowy.
+                Ten tryb także można ustawić tylko komendą. Na tym trybie nie możesz niszczyć bloków ani ich stawiać. Możesz jednak otwierać skrzynie lub pozyskiwać surowce po przez wybuch creepera lub TNT. Tryb ten wykorzystywany jest w mapkach do minecraft lub na serwerach aby gracze nie niszczyli bloków.
+
+                <h3>Poziomy trudności</h3>
+                Information icon Osobny artykuł: Poziomy trudności.
+                Poziom trudności decyduje o tym jak trudno będziesz mieć w swojej grze. Da się zablokować poziom trudności i wtedy gracz nie będzie mógł go zmienić. Istnieje ich 4: pokojowy, łatwy, normalny i trudny.
+
+                <h3>Pokojowy</h3>
+                Nie ma potworów (z wyjątkiem kilku, które na trybie pokojowym nie zadają obrażeń). Moby neutralne takie jak wilk, niedźwiedź polarny czy żelazny golem nie będą atakować gracza gdy ten ich uderzy. Poziom głodu nie spadnie a życie będzie się szybko regenerować, wciąż jednak jest możliwość zginięcia na poziomie pokojowym od:
+                <ol>
+                    <li>lawy</li>
+                    <li>ognia</li>
+                    <li>bloku magmy</li>
+                    <li>kaktusa</li>
+                    <li>tonięcia pod wodą</li>
+                    <li>upadku z dużej wysokości</li>
+                    <li>zgniecenia przez inne moby</li>
+                </ol>
+            </div>
+        </div>
+        <div class="menu2">
+            <button class="button1" onclick="play(); setTimeout(()=>{location.href='index.html'}, 200)">Powrót</button>
+            <button class="button1" onclick="play(); setTimeout(windowClose(), 200)">Wyjście</button>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,149 @@
+* {
+    font-family: 'Minecraftia', sans-serif;
+  }
+  
+  body {
+    background-size: cover;
+    overflow: hidden;
+  }
+
+  video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    filter: blur(8px);
+    z-index: -1;
+    transform: scale(1.02);
+  }
+
+  .logo {
+    display: flex;
+    width: 50%;
+    display: a;
+  }
+  
+  .container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .menu1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 33.3%;
+    margin-top: 2rem;
+    margin-bottom: 1.25rem;
+  }
+  
+  .menu2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 33.3%;
+  }
+
+  
+  .menu2 .button1:first-child {
+    margin-right: 10px;
+  }
+  
+  .button1 {
+    background: #727272;
+    color: rgb(247, 247, 247);
+    width: 100%;
+    padding: .5rem 0;
+    margin-bottom: .75rem;
+    text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.8);
+    font-size: 1rem;
+    letter-spacing: .025em;
+    border: 2px solid black;
+    box-shadow: inset 3px 3px 0 rgba(255, 255, 255, 0.5),
+                inset -3px -3px 0 rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+  }
+  .button1:hover {
+    background: rgb(115, 107, 221);
+  }
+  .button1:focus {
+    color: rgb(246, 246, 44);
+    outline: none;
+  }
+  
+  .grey-box {
+    height: 800px;
+    width: 60%;
+    justify-content: center;
+    align-items: center;
+    background-image: url("cobble.webp");
+    background-repeat: repeat;
+    background-size: 100px;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 10px;
+    overflow-y:scroll;
+    .p {
+        color: rgb(255, 255, 255);
+        font-size: 25px;
+        background-color: rgba(0, 0, 0, 0.5);
+        margin: 15px;
+        border-radius: 15px;
+        padding: 10px;
+    }
+  }
+
+  .grey-box.fade {
+    opacity: 1;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .container {
+        margin-top: 20%;
+    }
+    .logo {
+        width: 90%;
+    }
+    .menu2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 33.3%;
+        margin-top: 0px;
+        margin-bottom: 1.25rem;
+    }
+    .menu2 .button1:first-child {
+        margin-right: 0px;
+      }
+  }
+
+  .cow {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    img {
+      width: 30%;;
+    }
+  }
+
+::-webkit-scrollbar {
+    width: 20px;
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 1px #dbdbdb; 
+}
+
+::-webkit-scrollbar-thumb {
+    background: #727272;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #545454;
+}
